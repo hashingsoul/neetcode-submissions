@@ -1,176 +1,161 @@
-# Concatenation of Array
+# 🚀 NeetCode 250 Challenge
 
-**Difficulty:** Easy  
-**Topics:** Array  
-**Acceptance Rate:** 87.3%
+<div align="center">
 
-## Problem Statement
+![NeetCode](https://img.shields.io/badge/NeetCode-250-blue?style=for-the-badge)
+![LeetCode](https://img.shields.io/badge/LeetCode-DSA-orange?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-0%25-red?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge)
 
-You are given an integer array `nums` of length `n`.
+### 💻 My Journey to Master Data Structures & Algorithms
 
-Create an array `ans` of length `2n` such that:
+*"Consistency beats intensity. One problem at a time."*
 
-- `ans[i] = nums[i]`
-- `ans[i + n] = nums[i]`
-
-for every `0 <= i < n`.
-
-In simple terms, return an array that contains the original array **twice**.
+</div>
 
 ---
 
-## Examples
+# 📖 About
 
-### Example 1
+Welcome to my **NeetCode 250 Challenge** repository!
 
-**Input**
-```text
-nums = [1,4,1,2]
-```
+This repository documents my journey of solving all **250 carefully selected coding interview problems** from the **NeetCode Roadmap**.
 
-**Output**
-```text
-[1,4,1,2,1,4,1,2]
-```
+My goal is to strengthen my understanding of:
 
----
+- Arrays
+- Hashing
+- Two Pointers
+- Sliding Window
+- Stack
+- Binary Search
+- Linked List
+- Trees
+- Tries
+- Heap / Priority Queue
+- Backtracking
+- Graphs
+- Dynamic Programming
+- Greedy
+- Intervals
+- Bit Manipulation
+- Math
+- Advanced Graphs
 
-### Example 2
 
-**Input**
-```text
-nums = [22,21,20,1]
-```
+# 🎯 Goals
 
-**Output**
-```text
-[22,21,20,1,22,21,20,1]
-```
-
----
-
-## Constraints
-
-- `1 <= nums.length <= 1000`
-- `1 <= nums[i] <= 1000`
-
----
-
-# Approach
-
-The task is straightforward:
-
-1. Create an empty array `ans`.
-2. Traverse the input array.
-3. Append each element to `ans`.
-4. Traverse the array again.
-5. Append each element once more.
-6. Return `ans`.
-
-Alternatively, most programming languages provide an easy way to concatenate arrays directly.
+- ✅ Solve all **250 problems**
+- ✅ Write clean and readable code
+- ✅ Improve problem-solving skills
+- ✅ Prepare for Software Engineering interviews
+- ✅ Build consistency by solving problems daily
 
 ---
 
-# Algorithm
+# 🛠 Language
 
-1. Initialize an empty array `ans`.
-2. Loop through `nums` and append every element to `ans`.
-3. Loop through `nums` again and append every element.
-4. Return `ans`.
+- Python 3
 
 ---
 
-# Dry Run
 
-### Input
+# 📂 Repository Structure
 
 ```text
-nums = [1,4,1,2]
-```
-
-### Step-by-Step
-
-| Step | ans |
-|------|-----|
-| Start | [] |
-| Add 1 | [1] |
-| Add 4 | [1,4] |
-| Add 1 | [1,4,1] |
-| Add 2 | [1,4,1,2] |
-| Add 1 | [1,4,1,2,1] |
-| Add 4 | [1,4,1,2,1,4] |
-| Add 1 | [1,4,1,2,1,4,1] |
-| Add 2 | [1,4,1,2,1,4,1,2] |
-
-### Output
-
-```text
-[1,4,1,2,1,4,1,2]
+NeetCode-250/
+│
+├── Arrays/
+├── Two Pointers/
+├── Sliding Window/
+├── Stack/
+├── Binary Search/
+├── Linked List/
+├── Trees/
+├── Heap/
+├── Backtracking/
+├── Graphs/
+├── Dynamic Programming/
+├── Greedy/
+├── Intervals/
+├── Bit Manipulation/
+├── Math/
+└── README.md
 ```
 
 ---
 
-# Python Solution
-
-```python
-class Solution:
-    def getConcatenation(self, nums):
-        ans = []
-
-        for num in nums:
-            ans.append(num)
-
-        for num in nums:
-            ans.append(num)
-
-        return ans
-```
-
----
-
-# Optimized Python Solution
-
-Python allows list concatenation using the `+` operator.
-
-```python
-class Solution:
-    def getConcatenation(self, nums):
-        return nums + nums
-```
-
----
-
-# Complexity Analysis
-
-### Time Complexity
-
-```
-O(n)
-```
-
-We traverse the array once (or twice), where `n` is the length of `nums`.
-
-### Space Complexity
-
-```
-O(n)
-```
-
-A new array of size `2n` is created.
-
----
-
-# Key Takeaways
-
-- Simple array manipulation problem.
-- Understand how array concatenation works.
-- Many languages provide built-in concatenation operators.
-- Great beginner problem for practicing arrays.
-
----
-
-# Tags
+# 📚 Topics Covered
 
 - Array
-- Simulation
-- Beginner
+- Hash Table
+- String
+- Two Pointers
+- Sliding Window
+- Stack
+- Queue
+- Binary Search
+- Linked List
+- Trees
+- BST
+- Heap
+- Trie
+- Graph
+- DFS
+- BFS
+- Backtracking
+- Dynamic Programming
+- Greedy
+- Bit Manipulation
+- Math
+
+---
+
+# 📝 Problem Checklist
+
+- [ ] Arrays & Hashing
+- [ ] Two Pointers
+- [ ] Sliding Window
+- [ ] Stack
+- [ ] Binary Search
+- [ ] Linked List
+- [ ] Trees
+- [ ] Tries
+- [ ] Heap / Priority Queue
+- [ ] Backtracking
+- [ ] Graphs
+- [ ] Advanced Graphs
+- [ ] Dynamic Programming 1-D
+- [ ] Dynamic Programming 2-D
+- [ ] Greedy
+- [ ] Intervals
+- [ ] Bit Manipulation
+- [ ] Math & Geometry
+
+---
+
+# 🌟 Why This Repository?
+
+This repository serves as:
+
+- 📚 My DSA learning journal
+- 💼 Interview preparation resource
+- 🚀 Portfolio project
+- 🤝 Open-source reference for beginners
+
+---
+
+
+# ⭐ Support
+
+If you find this repository helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+<div align="center">
+
+### 🚀 Started the NeetCode 250 Challenge
+
+**Let's conquer coding interviews, one problem at a time!**
+
+</div>
