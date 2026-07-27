@@ -4,7 +4,6 @@
 
 ![NeetCode](https://img.shields.io/badge/NeetCode-250-blue?style=for-the-badge)
 ![LeetCode](https://img.shields.io/badge/LeetCode-DSA-orange?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Progress-0%25-red?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge)
 
 ### 💻 My Journey to Master Data Structures & Algorithms
